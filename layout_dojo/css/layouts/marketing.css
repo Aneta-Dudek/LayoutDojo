@@ -1,1 +1,60 @@
+/* Main content */
+.main {
+    margin-top: 40px; /* Add a top margin to avoid content overlay */
+    background: #0F8CD9;
+}
 
+/* The navigation bar */
+.home-menu {
+    overflow: hidden;
+    background-color: #2C3E50;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    text-align: right;
+}
+
+/* Links inside the navbar */
+.home-menu a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+/* Change background on mouse-over */
+.home-menu a:hover {
+        background: #ddd;
+        color: black;
+}
+
+
+.home-menu .pure-menu-heading {
+    font-weight: bold;
+}
+
+.home-menu .pure-menu-item a {
+    color: #0F8CD9 !important;
+}
+
+.splash {
+    margin: auto;
+    width: 50%;
+    padding: 10%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+    .splash .splash-head {
+        font-size: 100px;
+        font-weight: 200;
+        border: 3px solid white;
+        padding: 5%;
+    }
+
+    .splash .pure-button {
+        color: #0F8CD9;
+        background-color: white;
+    }
